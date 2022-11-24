@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art University</title>
+    <link rel="stylesheet" href="Art.css">
+    <script src="https://kit.fontawesome.com/682db909c4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<section class="sub-header">
+
+    <nav>
+<a href="index.html"><img src="./images/Art_Logo-removebg.png"></a>
+
+  <div class="nav-links" id="navLinks">
+
+    <i class="fa-solid fa-x" onclick="hideMenu()"></i>
+<ul> 
+    <li><a href="./Art.html">Home</a></li>
+    <li><a href="./about.html">About</a></li>
+    <li><a href="./Courses.html">Courses</a></li>
+    <li><a href="./Contact.html">Contact</a></li>
+</ul>
+
+  </div>
+    <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+
+  </nav>
+<h1>About Us</h1>
+
+</section>
+
+
+<!------About Us Content------>
+
+<section class="about-us">
+<div class="row">
+  <div class="about-col">
+    <h1>We Are The World Biggest Art Academy</h1>
+    <p>Our target is to make artist, arhitects, designers, and even art crators, with art everything is possible, 
+      you can put your emotions on everything you make, and put your Name On It, to see your cration on The Wall after your hard working hands
+      your sentimets, concentration and focus, you will be the most proud of it, We will be even more proud to see it     <i class="fa-solid fa-heart"></i></p>
+      <a href="">Explore Now</a>
+  </div>
+  <div class="about-col"></div>
+  <img src="./images/about us Working.jpg">
+</div>
+
+
+</section>
+
+
+<section class="footer">
+
+
+    <p><i class="fa-solid fa-paintbrush"></i> The Dream of Cration is Over, We Will Fullfil that Dream and Make it True <i class="fa-solid fa-palette"></i></p>
+    <p>Check us on our platforms and prepare the colors</p>
+    <div class="icon">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-square-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+
+    
+    </div>
+
+
+</section>
+
+
+
+
+
+<!------JavaScript for Toggle Menu----->
+<script>
+
+ var navLinks = document.getElementById("navLinks");
+
+ function showMenu(){
+    navLinks.style.right = "0";
+ }
+ function hideMenu(){
+    navLinks.style.right = "-200px";
+ }
+
+
+</script>
+
+
+
+
+
+</body>
+</html>
